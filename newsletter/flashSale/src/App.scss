@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+// create a right angled triangle
+.container{
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top, .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.triangle1{
+    width: 0;
+    height: 0;
+   border-bottom: 200px solid red;
+   border-right: 200px solid transparent;
+}
+.triangle2{
+    width: 0;
+    height: 0;
+   border-top: 200px solid blue;
+   border-left: 200px solid transparent;
+   position: absolute;
+    top: 0;
+    left: 0;
+}
+.triangle3{
+    width: 0;
+    height: 0;
+   border-top: 200px solid green;
+   border-right: 200px solid transparent;
+}
+.triangle4{
+    width: 0;
+    height: 0;
+   border-bottom: 200px solid yellow;
+   border-left: 200px solid transparent;
+   position: absolute;
+    top: 0;
+    right: 0;
+}
+// bottom triangles
+.triangle5{
+    width: 0;
+    height: 0;
+   border-top: 200px solid rgb(40, 9, 9);
+   border-right: 200px solid transparent;
+}
+.triangle6{
+    width: 0;
+    height: 0;
+   border-bottom: 200px solid blue;
+   border-left: 200px solid transparent;
+   position: absolute;
+    top: 0;
+    left: 0;
+}
+.triangle7{
+    width: 0;
+    height: 0;
+   border-bottom: 200px solid green;
+   border-right: 200px solid transparent;
+}
+.triangle8{
+    width: 0;
+    height: 0;
+   border-top: 200px solid rgb(30, 30, 5);
+   border-left: 200px solid transparent;
+   position: absolute;
+    top: 0;
+    right: 0;
+}
